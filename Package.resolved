@@ -1,0 +1,51 @@
+{
+  "originHash" : "cd98e360670a81a0c684bd97fea51c05bb455a7fa106f561061c7f0949e16aa4",
+  "pins" : [
+    {
+      "identity" : "pusher-websocket-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pusher/pusher-websocket-swift.git",
+      "state" : {
+        "revision" : "c1214f865cb7f7cd6db3cbdcfe849ca4c34f8e71",
+        "version" : "8.0.0"
+      }
+    },
+    {
+      "identity" : "reachability.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ashleymills/Reachability.swift.git",
+      "state" : {
+        "revision" : "7cbd73f46a7dfaeca079e18df7324c6de6d1834a",
+        "version" : "5.2.3"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "5642d1ffe3dbe628592443bd14154e31929727b4",
+        "version" : "5.19.2"
+      }
+    },
+    {
+      "identity" : "starscream",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/daltoniam/Starscream.git",
+      "state" : {
+        "revision" : "a063fda2b8145a231953c20e7a646be254365396",
+        "version" : "3.1.2"
+      }
+    },
+    {
+      "identity" : "tvos-xcframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Innovid/tvos-xcframework.git",
+      "state" : {
+        "revision" : "6f3d90da4125c7c45d195c934bf0a28d0706b55e",
+        "version" : "1.7.10"
+      }
+    }
+  ],
+  "version" : 3
+}

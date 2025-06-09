@@ -15,7 +15,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url:"https://github.com/Innovid/tvos-xcframework.git", exact: "1.7.10"),
-        .package(url:"https://github.com/pusher/pusher-websocket-swift.git", exact: "8.0.0"),
         .package(url: "https://github.com/SDWebImage/SDWebImage.git" , exact: "5.19.2"),
     ],
     targets: [
@@ -26,7 +25,6 @@ let package = Package(
                dependencies: [
                 .target(name: "TruexAdRenderer"),
                 .product(name: "InnovidAdRendererFramework", package: "tvos-xcframework"),
-                .product(name: "PusherSwift", package: "pusher-websocket-swift"),
                 .product(name: "SDWebImage", package: "SDWebImage"),
                ])
     ]

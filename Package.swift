@@ -19,8 +19,8 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "TruexAdRenderer",
-                      url: "https://stash.truex.com/integration/TruexAdRenderer-tvOS-v3.15.1-spm.zip",
-                      checksum: "0533aa88075216668ab7f218ab0e322cc5f8c2cb3d9b2243e562b2dfe571c36f"),
+                      url: "https://stash.truex.com/integration/TruexAdRenderer-tvOS-v3.15.2-spm.zip",
+                      checksum: "bc51d0054f3980e232c00f0c3cba4489305539904bb3746a50d48efc0ce833b4"),
         .target(name: "TruexAdRendererTarget",
                dependencies: [
                 .target(name: "TruexAdRenderer"),
